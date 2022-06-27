@@ -17,7 +17,7 @@
   * notazione:
     
     $$
-    Y= \{ Z \in X\mid P(Z) \}
+    Y= \textbraceleft Z \in X\mid P(Z) \textbraceright
     $$
   
 * insieme vuoto
@@ -49,13 +49,13 @@
 * insieme vuoto (ridondate)
   
   $$
-  \emptyset \overset{def}{=} \{ X \in Y \mid false \}
+  \emptyset \overset{def}{=} \textbraceleft X \in Y \mid false \textbraceright
   $$
   
 * intersezione binaria
   
   $$
-  A \cap B \overset{def}{=}\{ X \in A \mid X \in B \}
+  A \cap B \overset{def}{=}\textbraceleft X \in A \mid X \in B \textbraceright
   $$
 
 * intersezione
@@ -67,7 +67,7 @@
   $$
   
   $$
-  \bigcap F \overset{def}{=} \{ X \in A \mid \forall Y,(Y \in F \implies X \in Y) \} \quad dove\ A \in F
+  \bigcap F \overset{def}{=} \textbraceleft X \in A \mid \forall Y,(Y \in F \implies X \in Y) \textbraceright \quad dove\ A \in F
   $$
   
   A è ogni elemento di F
