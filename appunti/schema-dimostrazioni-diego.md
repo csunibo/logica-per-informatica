@@ -7,36 +7,57 @@ $$
 $$
 
 Per dimostrare ∀x .P (x ) (per ogni x vale P (x )):
+
 *“sia x (un insieme) fissato; . . . ”*
+
 (i “. . .” sono una prova di P (x ))
+
 $$
 \implies
 $$
+
 Per dimostrare P ⇒Q:
+
 *“Assumo P (H ). . . . ”*
+
 (“H ”) è il nome dell’ipotesi;
+
 i “. . .” sono una prova di Q)
+
 $$
 \iff
 $$
+
 Per dimostrare P ⇐⇒ Q si dimostra sia P ⇒Q che Q ⇒P .
+
 $$
-\and
+\land
 $$
+
 Per dimostrare P ∧Q (P e Q) si dimostrano sia P che Q.
+
 $$
-\or
+\lor
 $$
+
 Per dimostrare P ∨Q (P o Q) basta dimostrare P oppure Q
+
 dichiarandolo:
+
 *“dimostro P ”* oppure *“dimostro Q"*
+
 $$
-\exist
+\exists
 $$
+
 Per dimostrare ∃x .P (x ) (esiste un x per cui vale P (x )):
+
 “scelgo E e dimostro P (E ) ; . . . ”
+
 (i “. . .” sono una prova di P (E ))
+
 E può essere un’espressione qualsiasi (es. B ∩C).
+
 
 ## eliminazione
 
@@ -46,9 +67,11 @@ $$
 
 Da un’ipotesi o un risultato intermedio ∀x .P (x ) potete
 concludere che P valga per ciò che volete.
+
 $$
 \implies
 $$
+
 Da un’ipotesi o un risultato intermedio P ⇒Q e da un’ipotesi o
 un risultato intermedio P potete concludere che Q vale.
 
@@ -56,52 +79,74 @@ un risultato intermedio P potete concludere che Q vale.
 
 Da un’ipotesi o un risultato intermedio P ⇒Q di nome H , se
 volete concludere Q, potete procedere dicendo
+
 *“per H , per dimostare Q mi posso ridurre a dimostrare P ”*
+
 $$
 \iff
 $$
-L’ipotesi P ⇐⇒ Q può essere usata sia come un’ipotesi
+
+L’ipotesi P ⇐⇒ Q può essere usata sia come un’ipotesi 
 P ⇒Q, che come un’ipotesi Q ⇒P.
 
-<center>Assurdo</center>
+$$
+Assurdo
+$$
 
 Se ho dimostrato l’assurdo posso concludere qualunque cosa.
+
 $$
-\and
+\land
 $$
+
 Un’ipotesi o un risultato intermedio P ∧Q può essere usato sia
 come P che come Q. In alternativa, invece di concludere o
 assumere P ∧Q (H ), si può direttamente concludere o
 assumere P (H1) e Q (H2).
+
 $$
-\or
+\lor
 $$
+
 Data un’ipotesi o un risultato intermedio P ∨Q, si può
 proseguire nella dimostrazione per casi, una volta assumendo
 che P valga e una volta che Q valga:
+
 *“procedo per casi:*
+
 *caso in cui valga P (H ): . . .*
+
 *caso in cui valga Q (H ): . . . "*
+
 $$
-\exist
+\exists
 $$
+
 Da un’ipotesi o un risultato intermedio ∃x .P (x ) potete
 procedere nella prova dicendo
+
 “sia x t.c. P (x ) (H )”
+
 x deve essere una variabile non in uso in nessuna ipotesi o
 nella conclusione
 
 ## altro e abbreviazioni
 
 **Per ogni tale che**
+
 “sia x tale che P (x ). . . . ”
+
 abbrevia
+
 “sia x (un insieme) fissato; assumo P (x ); . . . ”
+
 per dimostrare ∀x .P (x ) ⇒Q(x )
 
 
 **Da H1, . . . , Hn**
+
 “da H1, . . . , Hn ho P (H )”
+
 dove ogni Hi ha la forma ∀~x .Qi1(~x ) ⇒. . . ⇒Qini (~x ) abbrevia
 l’applicazione di un numero arbitrario di regole di eliminazione
 del per ogni e dell’implicazione applicate a partire dalle ipotesi
