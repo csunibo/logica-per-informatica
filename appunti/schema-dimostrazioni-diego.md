@@ -99,7 +99,7 @@ $$
 \land
 $$
 
-Un’ipotesi o un risultato intermedio P ∧Q può essere usato sia
+Un’ipotesi o un risultato intermedio $P \wedge Q$ può essere usato sia
 come P che come Q. In alternativa, invece di concludere o
 assumere $P \wedge Q$ (H ), si può direttamente concludere o
 assumere P (H1) e Q (H2).
