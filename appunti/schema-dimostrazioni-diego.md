@@ -122,7 +122,7 @@ $$
 \exists
 $$
 
-Da un’ipotesi o un risultato intermedio $\existsx .P (x )$ potete
+Da un’ipotesi o un risultato intermedio $\exists x .P (x )$ potete
 procedere nella prova dicendo
 
 “sia x t.c. P (x ) (H )”
